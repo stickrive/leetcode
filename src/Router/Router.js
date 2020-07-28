@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Main from '../Pages/Main'
 import FindRepeatNumber from '../Pages/Array/FindRepeatNumber'
+import FindNumberIn2DArray from '../Pages/Array/findNumberIn2DArray'
 
 const App = () => {
   return (
@@ -11,8 +12,8 @@ const App = () => {
         <Route path="/find-repeat-number">
           <FindRepeatNumber />
         </Route>
-        <Route path="/users">
-          <Users />
+        <Route path="/find-number-in-2d-array">
+          <FindNumberIn2DArray />
         </Route>
         <Route path="/">
           <Home />
@@ -25,12 +26,4 @@ export default App
 
 function Home() {
   return <h2>Home</h2>
-}
-
-function About() {
-  return <h2>About</h2>
-}
-
-function Users() {
-  return <h2>Users</h2>
 }

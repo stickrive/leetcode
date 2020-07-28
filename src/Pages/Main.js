@@ -13,7 +13,7 @@ const Main = () => {
             <Link to="/find-repeat-number">find-repeat-number</Link>
           </li>
           <li>
-            <Link to="/users">Users</Link>
+            <Link to="/find-number-in-2d-array">find-number-in-2d-array</Link>
           </li>
         </ul>
       </nav>

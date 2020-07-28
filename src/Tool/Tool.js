@@ -1,7 +1,6 @@
 export const productNumArr = () => {
   const arrLength = Math.ceil(Math.random() * 10)
   let res = []
-  console.log('===arrLength===', arrLength)
   for (let i = 0; i < arrLength; i++) {
     let item = Math.ceil(Math.random() * 10)
     res = [item, ...res]

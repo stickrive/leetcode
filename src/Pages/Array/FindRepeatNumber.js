@@ -28,8 +28,7 @@ const FindRepeatNumber = () => {
 const arr = [0, 1, 2, 3, 4, 2]
 
 let res = findNum(arr)
-console.log('===res===', res)
 
 let a1 = productNumArr()
-console.log(a1)
+
 export default FindRepeatNumber
