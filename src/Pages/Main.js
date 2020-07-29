@@ -15,6 +15,9 @@ const Main = () => {
           <li>
             <Link to="/find-number-in-2d-array">find-number-in-2d-array</Link>
           </li>
+          <li>
+            <Link to="/two-sum">two-sum</Link>
+          </li>
         </ul>
       </nav>
     </div>
