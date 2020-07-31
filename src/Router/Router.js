@@ -9,6 +9,8 @@ import MajorityElement from '../Pages/Array/MajorityElement'
 
 import LengthOfLongestSubstring from '../Pages/String/LengthOfLongestSubstring'
 
+import TodoList from '../Pages/Todo/index'
+
 const App = () => {
   return (
     <Router>
@@ -29,6 +31,10 @@ const App = () => {
 
         <Route path="/longest-substring-without-repeating-characters">
           <LengthOfLongestSubstring />
+        </Route>
+
+        <Route path="/todo">
+          <TodoList />
         </Route>
 
         <Route path="/">

@@ -10,6 +10,9 @@ const Main = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
+            <Link to="/todo">TodoList</Link>
+          </li>
+          <li>
             <Link to="/find-repeat-number">find-repeat-number</Link>
           </li>
           <li>
