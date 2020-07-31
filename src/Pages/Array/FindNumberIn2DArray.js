@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import {productNumArr} from '../../Tool/Tool'
 
 const FindNumberIn2DArray = () => {
   const [ShowAnswer, setShowAnswer] = useState(false)
@@ -28,24 +27,24 @@ const FindNumberIn2DArray = () => {
   )
 }
 
-const arr = [
-  [1, 4, 7, 11, 15, 17],
-  [2, 5, 8, 12, 19, 23],
-  [3, 6, 9, 16, 22, 30],
-  [10, 13, 14, 20, 24, 32],
-  [18, 21, 23, 26, 30, 38],
-  [25, 28, 29, 36, 50, 55],
-  [29, 38, 49, 55, 80, 105],
-]
+// const arr = [
+//   [1, 4, 7, 11, 15, 17],
+//   [2, 5, 8, 12, 19, 23],
+//   [3, 6, 9, 16, 22, 30],
+//   [10, 13, 14, 20, 24, 32],
+//   [18, 21, 23, 26, 30, 38],
+//   [25, 28, 29, 36, 50, 55],
+//   [29, 38, 49, 55, 80, 105],
+// ]
 
-function findNum1(arr, target) {
-  let res = arr.flat()
-  if (res.includes(target)) {
-    return true
-  } else {
-    return false
-  }
-}
+// function findNum1(arr, target) {
+//   let res = arr.flat()
+//   if (res.includes(target)) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }
 
 // findNum1(arr, 5)
 

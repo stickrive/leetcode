@@ -5,6 +5,7 @@ import Main from '../Pages/Main'
 import FindRepeatNumber from '../Pages/Array/FindRepeatNumber'
 import FindNumberIn2DArray from '../Pages/Array/FindNumberIn2DArray'
 import TwoSum from '../Pages/Array/TwoSum'
+import MajorityElement from '../Pages/Array/MajorityElement'
 
 import LengthOfLongestSubstring from '../Pages/String/LengthOfLongestSubstring'
 
@@ -21,6 +22,9 @@ const App = () => {
         </Route>
         <Route path="/two-sum">
           <TwoSum />
+        </Route>
+        <Route path="/majority-element">
+          <MajorityElement />
         </Route>
 
         <Route path="/longest-substring-without-repeating-characters">

@@ -19,6 +19,9 @@ const Main = () => {
             <Link to="/two-sum">two-sum</Link>
           </li>
           <li>
+            <Link to="/majority-element">majority-element</Link>
+          </li>
+          <li>
             <Link to="/longest-substring-without-repeating-characters">
               longest-substring-without-repeating-characters
             </Link>
